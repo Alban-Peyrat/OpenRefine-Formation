@@ -1,0 +1,110 @@
+﻿id;authorised_value;lib;auth_branches
+356;ET1;"1er étage";BRDX|BRET|MLVL|MALQ
+357;ET1R;"1er étage réserve";MALQ
+358;ET2;"2e étage";MALQ
+359;ET2B;"2e étage bureau doc";MALQ
+360;ACC;Accueil;NNCY|MLVL|PVDS|TOUL|VRSL|CLRF
+361;ARC;Architectes;TOUL|MLVL
+362;ARCHI;Architecture;MLVL|TOUL
+363;ARCHIV;Archives;MLVL|NRMD|NNCY|BRET|MOPL
+364;ARCHIVNAT;"Archives nationales";MALQ|PBLV|VRSL
+369;ARP;Arpège;BRDX
+370;ART;Arts;MLVL|TOUL
+372;ATDOC;"Atelier documentaire";LILL
+373;AUD;Audiovisuel;BRDX|TOUL|NRMD|NNCY|BRET
+374;BIB;Bibliothèque;NRMD|PLVT|TOUL|MOPL|LYON|NANT
+375;BURB;"Bureau bas";MLVL
+376;BURDOC;"Bureau doc";PBLV|NRMD|CLRF|BRET|TOUL|MOPL|BRDX
+377;BURH;"Bureau haut";BRET
+378;BURI;"Bureau interne";MRSL|PAYM|IMVT|IUAR
+382;CARTO;Cartothèque;PBLV|IPRA|BRDX|CLRF
+384;CEART;"Centre d'art";VRSL
+385;DOC;"Centre de documentation";MOPL|IPRA|PLVT|NNCY|GRNO|ATEP
+386;PASS;Passages;BRDX
+387;CONS;Construction;MLVL|TOUL
+388;DSA;DSA;MLVL
+389;METIER;"Espace Métier";TOUL
+390;FA;"Fonds ancien";BRET|LYON|LILL|BRDX|PBLV|NRMD|NNCY
+393;FC;"Fonds courant";NNCY|NRMD|PBLV|MLVL|BRET
+394;FDIA;"Fonds diapos";CLRF
+395;FPA;"Fonds photo aérienne";BRDX
+396;FR;"Fonds régional";TOUL|MOPL
+397;FTPFE;"Fonds TPFE";BRDX|BRET
+398;FTA;"Fonds travaux étudiants";BRET|BRDX
+400;GRECAU;GRECAU;BRDX
+401;HF;"Hors format";BRET|NNCY|PBLV|TOUL|BRDX
+402;IPRAUS;IPRAUS;PBLV
+403;LARIA;"Labo ARIA";LYON
+404;LARTOPOS;"Labo ARTOPOS";MOPL
+406;LSLA;LIFAM;MOPL
+407;LAB;Laboratoires;MRSL|NNCY|PAYM|IMVT|IUAR
+410;LA;"Libre accès";PAYV|MRSL|IUAR|IMVT|PVDS|PAYM
+411;MAG;Magasin;IUAR|MOPL|LYON|GRNO|MRSL|PVDS|LILL|PAYM|PAYV|IMVT
+412;MAG1;"Magasin 1";BRDX
+413;MAT;Matériauthèque;BRDX|MOPL|TOUL|NRMD|PVSM|PVDS|PBLV
+415;LIV;Monographies;MOPL
+416;NH;"Niveau haut";MLVL
+417;PAVE;PAVE;BRDX
+418;PAY;Paysage;TOUL
+420;PLA1;"Placard 1";LYON|MLVL
+421;RDCRES;"RDC Réserve";MALQ
+422;RECH;Recherche;NRMD|MLVL|LILL
+424;RES;Réserve;NRMD|MOPL|CLRF|MLVL|PVDS|PBLV|TOUL|BRDX|PAYV
+425;RES1;"Réserve 1";VRSL|PLVT|LYON
+426;RES2;"Réserve 2";PLVT|LYON|BRDX|VRSL
+427;RES3;"Réserve 3";BRET|BRDX|PLVT
+428;RESMUR;"Réserve Mûrier";MALQ
+429;REV;Revues;MOPL|NNCY|MLVL|TOUL|BRDX|BRET
+430;RDC;"Rez de chaussée";MALQ
+431;S1;"Salle 1";BRDX|BRET
+433;SL;"Salle de lecture";LILL|VRSL|PBLV|NRMD|CLRF|MLVL
+435;SAOD;"Salle des archives/ouvrages doubles";CLRF
+441;SH;"Sciences humaines";MLVL|TOUL
+442;SI;"Service informatique";TOUL
+443;SADM;"Services administratifs";TOUL|MOPL|PAYV|NNCY|BRDX
+444;TER;Territoire;MLVL
+445;URBA;Urbanisme;TOUL
+446;USU;Usuels;MLVL|MOPL|TOUL
+447;VIDEO;Vidéothèque;PLVT|NRMD
+448;VIT;"Vitrine Prof";BRDX|MLVL
+449;VRD;VRD;VRSL
+517;INC;Inconnu;
+528;ATM;"Atelier maquette";NNCY|PBLV
+529;FREV;"Fonds revues";BRET
+748;LRA;"Laboratoire de recherche en architecture (LRA)";TOUL
+750;ARCHIVDEP;"Archives départementales";BRDX|NRMD|VRSL
+768;FAUZ;"Fonds Auzelle";PBLV
+769;FH;"Fonds Huet";PBLV
+770;FHA;"Fonds Huet ancien";PBLV
+771;LLAU;"Labo LAURE";LYON
+776;SRV;"Serveur ENSA";NRMD
+779;LIGNE;"En ligne";
+801;FBD;"Fonds BD";TOUL|BRDX
+845;DPEA;DPEA;MLVL
+846;PLA;Placard;MLVL
+860;RESC;"Réserve de cours";TOUL|LILL
+877;FJA;"Fonds Jean Aubert";NRMD
+908;ATB;"Atelier Bois";PBLV
+926;FAR;"Fonds ancien réserve";BRET
+928;REVR;"Revues réserve";BRET
+929;REVV;"Revues vitrine";BRET
+930;FTAT;"Fonds travaux d'atelier";BRET
+931;LABO;"Laboratoire de recherche";BRET|MALQ
+932;FGUE;"Fonds Guerrand";BRET
+933;MP1;"Meuble à plans 1";PLVT
+934;MP2;"Meuble à plans 2";PLVT
+935;MP3;"Meuble à plans 3";PLVT
+936;MP4;"Meuble à plans 4";PLVT
+937;MP5;"Meuble à plans 5";PLVT
+1319;CART;Quarantaine;TSIT
+1320;LIT;"Littérature - BD";MLVL
+1326;PEDAGO;"Espace Pédagogie";TOUL|PBLV
+1862;RBW;"Master RBW";BRDX
+1866;ESC;"Escape game";NNCY
+1907;FHDUP;"Fonds Hervé Dupont";NRMD
+2004;ECOL;"Écologie";PAYV
+2005;POTA;Potager;PAYV
+2006;FPBLV;"Fonds Pinon";PBLV
+2009;FPABLV;"Fonds Pinon ancien";PBLV
+2102;MEZP;"Mezzanine Périodiques";GRNO
+2104;COH;Cohen;MLVL
