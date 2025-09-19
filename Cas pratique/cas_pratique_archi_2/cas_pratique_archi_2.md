@@ -4,16 +4,6 @@ Lors du bulletinnage rétrospectif, un tableau de données est transmis à notre
 
 Objectif : vérifier que le tableau est correct pour ne pas générer d'erreurs ou éviter que le fichier soit refusé par le prestataire.
 
-### to do
-
-1 colonne avec des écoles manquantes mais on a le numéro d'abonnnement à côté
-vérifier que les biblionumber sont bien tous sans espaces
-vérifier que les no abonnement sont bien tous sans espaces
-vérifier que les code sistes sont légaux
-fusionner volume & numéro
-Verif format de dates + les corriger
-* Unifier le statut
-
 ## Format attendu
 
 Le fichier doit être un fichier CSV séparé par des `;`, encadrant les données entre guillemets, avec les colonnes suivantes :
