@@ -151,6 +151,7 @@ Les colonnes *Volume* & *ancien_numero* sont désormais inutiles, supprimez-les 
 Pour rappel, voici ce qui est attendu ici :
 
 > `date_parution` : date de parution au format `YYYY-MM-DD`
+>
 > `date_reception` : date de réception du fascicule au format `YYYY-MM-DD`
 
 Les deux suivants exactement les mêmes règles, elles sont à traiter une par une, mais avec la même procédure.

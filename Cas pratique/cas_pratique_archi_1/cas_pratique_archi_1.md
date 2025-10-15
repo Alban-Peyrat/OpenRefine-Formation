@@ -103,7 +103,7 @@ On constate que certaines lignes doivent être corrigées :
 
 * Cliquez sur la flèche juste à côté du nom de la colonne, puis _Modifier cellules..._ puis _Transformer..._
 * Vérifiez que le langage sélectionné est bien _General Refine Expression Language (GREL)_
-* Collez l'expression suivante : `if(value.strip().length < 9, value.strip(), "000000000".substring(value.strip().length()) + value.strip())`
+* Collez l'expression suivante : `if(value.strip().length() < 9, "000000000".substring(value.strip().length()) + value.strip(), value.strip())`
   * Note sur la transformation utilisée : retire tous les espaces avant et après le PPN puis, si le PPN fait moins de 9 caractères, ajoute autant de `0` que nécessaire
 * Observez dans la prévisualisation en bas que le résultat de l'opération est correct
 * Validez avec _OK_
@@ -145,7 +145,7 @@ Pour le moment, on constate que la notice `539098` n'a pas de code-barre rattach
 
 > 💡 **ASTUCE :** En cliquant sur la flèche juste à côté de _Tous_ puis _Modifier lignes..._ puis _Remove duplicate rows_, vous pouvez supprimez les doublons, cependant, si vous n'avaez pas dans un premier temps noté les anomalie,s vous ne saurez pas ce qui les a causé.
 
-## 3. Croiser les deux fichiers - importer les données du Sudoc dans la liste des donneés de Koha
+## 3. Croiser les deux fichiers - importer les données du Sudoc dans la liste des données de Koha
 
 Maintenant que les clefs de concordances sont prêtes dans les deux projets, nous pouvons récupérer les informations d'un projet dans l'autre pour commencer l'analyse.
 
@@ -322,7 +322,7 @@ Si vous n'avez plus besoin de *reponse_xml*, supprimez la colonne pour faicliter
 
 Vous pouvez désormais regarder les informations de chaque champs et répérer s'il y a un problème : par exemple, dans ce cas, est-ce que les exemplaires ont un `915$b`.
 
-### 6.3 Des exemplaire sencore localisé à la bibliothèque dans la localisation _Matériauthèque_
+### 6.3 Des exemplaires encore localisé à la bibliothèque dans la localisation _Matériauthèque_
 
 En théorie, la bibliothèque ne doit plus avoir d'exemplaires dans sa localisation _Matériauthèque_.
 
